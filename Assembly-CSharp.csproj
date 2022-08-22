@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
+  <!--Project was exported from assembly: C:\Users\ASUS\Downloads\Assembly-CSharp.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1CED3CA6-745D-47BF-BE82-76854F5D59AE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <ApplicationVersion>0.0.0.0</ApplicationVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdHandler.cs" />
+    <Compile Include="CameraManager.cs" />
+    <Compile Include="Parallax.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="ClientHandle.cs" />
+    <Compile Include="ClientSend.cs" />
+    <Compile Include="Compress.cs" />
+    <Compile Include="ServerPackets.cs" />
+    <Compile Include="ClientPackets.cs" />
+    <Compile Include="Packet.cs" />
+    <Compile Include="AudioManager.cs" />
+    <Compile Include="Audio.cs" />
+    <Compile Include="DiscordRichPresence.cs" />
+    <Compile Include="DropShadow.cs" />
+    <Compile Include="EffectManager.cs" />
+    <Compile Include="FishingManager.cs" />
+    <Compile Include="GameManager.cs" />
+    <Compile Include="GameEffect.cs" />
+    <Compile Include="Quest.cs" />
+    <Compile Include="Achievement.cs" />
+    <Compile Include="Step.cs" />
+    <Compile Include="Requirement.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="Deal.cs" />
+    <Compile Include="EffectType.cs" />
+    <Compile Include="TemporaryEffect.cs" />
+    <Compile Include="GameItem.cs" />
+    <Compile Include="TemporaryItem.cs" />
+    <Compile Include="DroppedItem.cs" />
+    <Compile Include="SaleItem.cs" />
+    <Compile Include="Category.cs" />
+    <Compile Include="Craft.cs" />
+    <Compile Include="PetBehaivour.cs" />
+    <Compile Include="PutGridManager.cs" />
+    <Compile Include="TutorialHandler.cs" />
+    <Compile Include="WorldManager.cs" />
+    <Compile Include="Inventory.cs" />
+    <Compile Include="InventoryManager.cs" />
+    <Compile Include="Slot.cs" />
+    <Compile Include="AnimationSystem.cs" />
+    <Compile Include="Animation.cs" />
+    <Compile Include="EffectSystem.cs" />
+    <Compile Include="Effect.cs" />
+    <Compile Include="MovementManager.cs" />
+    <Compile Include="PlayerManager.cs" />
+    <Compile Include="ThreadManager.cs" />
+    <Compile Include="TradeManager.cs" />
+    <Compile Include="TradeSlot.cs" />
+    <Compile Include="DialogueHandler.cs" />
+    <Compile Include="FlowLayoutGroup.cs" />
+    <Compile Include="LinkHandler.cs" />
+    <Compile Include="NotificationMovement.cs" />
+    <Compile Include="UIController.cs" />
+    <Compile Include="TextEffect.cs" />
+    <Compile Include="ChatBubble.cs" />
+    <Compile Include="Pack.cs" />
+    <Compile Include="News.cs" />
+    <Compile Include="IconEffect.cs" />
+    <Compile Include="Discord\ActivityManager.cs" />
+    <Compile Include="Discord\Constants.cs" />
+    <Compile Include="Discord\Result.cs" />
+    <Compile Include="Discord\CreateFlags.cs" />
+    <Compile Include="Discord\LogLevel.cs" />
+    <Compile Include="Discord\UserFlag.cs" />
+    <Compile Include="Discord\PremiumType.cs" />
+    <Compile Include="Discord\ImageType.cs" />
+    <Compile Include="Discord\ActivityType.cs" />
+    <Compile Include="Discord\ActivityActionType.cs" />
+    <Compile Include="Discord\ActivityJoinRequestReply.cs" />
+    <Compile Include="Discord\Status.cs" />
+    <Compile Include="Discord\RelationshipType.cs" />
+    <Compile Include="Discord\LobbyType.cs" />
+    <Compile Include="Discord\LobbySearchComparison.cs" />
+    <Compile Include="Discord\LobbySearchCast.cs" />
+    <Compile Include="Discord\LobbySearchDistance.cs" />
+    <Compile Include="Discord\EntitlementType.cs" />
+    <Compile Include="Discord\SkuType.cs" />
+    <Compile Include="Discord\InputModeType.cs" />
+    <Compile Include="Discord\User.cs" />
+    <Compile Include="Discord\OAuth2Token.cs" />
+    <Compile Include="Discord\ImageHandle.cs" />
+    <Compile Include="Discord\ImageDimensions.cs" />
+    <Compile Include="Discord\ActivityTimestamps.cs" />
+    <Compile Include="Discord\ActivityAssets.cs" />
+    <Compile Include="Discord\PartySize.cs" />
+    <Compile Include="Discord\ActivityParty.cs" />
+    <Compile Include="Discord\ActivitySecrets.cs" />
+    <Compile Include="Discord\Activity.cs" />
+    <Compile Include="Discord\Presence.cs" />
+    <Compile Include="Discord\Relationship.cs" />
+    <Compile Include="Discord\Lobby.cs" />
+    <Compile Include="Discord\FileStat.cs" />
+    <Compile Include="Discord\Entitlement.cs" />
+    <Compile Include="Discord\SkuPrice.cs" />
+    <Compile Include="Discord\Sku.cs" />
+    <Compile Include="Discord\InputMode.cs" />
+    <Compile Include="Discord\UserAchievement.cs" />
+    <Compile Include="Discord\LobbyTransaction.cs" />
+    <Compile Include="Discord\LobbyMemberTransaction.cs" />
+    <Compile Include="Discord\LobbySearchQuery.cs" />
+    <Compile Include="Discord\ResultException.cs" />
+    <Compile Include="Discord\Discord.cs" />
+    <Compile Include="Discord\MonoPInvokeCallbackAttribute.cs" />
+    <Compile Include="Discord\ApplicationManager.cs" />
+    <Compile Include="Discord\UserManager.cs" />
+    <Compile Include="Discord\ImageManager.cs" />
+    <Compile Include="Discord\RelationshipManager.cs" />
+    <Compile Include="Discord\LobbyManager.cs" />
+    <Compile Include="Discord\NetworkManager.cs" />
+    <Compile Include="Discord\OverlayManager.cs" />
+    <Compile Include="Discord\StorageManager.cs" />
+    <Compile Include="Discord\StoreManager.cs" />
+    <Compile Include="Discord\VoiceManager.cs" />
+    <Compile Include="Discord\AchievementManager.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
